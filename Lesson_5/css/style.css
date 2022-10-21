@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+@font-face {
+	font-family: "SkylarSans";
+	src: url("../fonts/SkylarSansBold.woff2") format("woff2"),
+		url("../fonts/SkylarSansRegular.woff") format("woff");
+		font-display: swap;
+		font-weight: 400;
+		font-style: normal;
+}
+
+@font-face {
+	font-family: "SkylarSans";
+	src: url("../fonts/SkylarSansBold.woff2") format("woff2"),
+		url("../fonts/Larsseit-Medium.woff") format("woff");
+		font-display: swap;
+		font-weight: 700;
+		font-style: bold;
+}
+
+
+
+
+main {
+	background-color: rgba(78, 156, 150, 0.795);
+}
+
+img {
+	margin: 25px 75px;
+}
+
+body {
+	font-family: "Marck Script";
+}
+
+h1 {
+	background-color: aqua;
+	padding: 15px 75px;
+}
+
+h2 {
+	color: blue;
+	margin: 25px 100px;
+	text-shadow: 2px 2px 5px;
+	font-size: 25px;
+}
+
+h3 {
+	color: brown;
+	margin: 25px 100px;
+	text-shadow: 2px 2px 5px;
+	font-size: 25px;
+}
+
+h4 {
+	color: blueviolet;
+	margin: 50px 150px;
+}
+
+.construction {
+	text-align: justify;
+	margin: 100px;
+	background-color: antiquewhite;
+}
+
+.mod {
+	margin: 5px;
+	padding: 15px;
+	color: brown;
+	background-color: rgba(165, 42, 42, 0.11);
+}
+
+.history {
+	padding: 25px;
+	background-color: burlywood;
+}
+
+.history-title {
+	font-family: SkylarSans;
+	text-decoration: underline;
+	text-align: center;
+}
