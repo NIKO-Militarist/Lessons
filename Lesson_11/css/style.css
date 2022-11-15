@@ -1,0 +1,32 @@
+
+.wrapper {
+	overflow: hidden;
+	position: relative;
+	min-height: 100%;
+	padding: 5px;
+	max-width: 1240px;
+	margin: 0 auto;
+}
+
+
+.main__car::before{
+	content: "";
+	background: url('../img/bmw.svg') 0 0 / 100% no-repeat;
+	width:175px;
+	height: 175px;
+	position: absolute;
+	transition: all 1s ease 0s;
+	top: 410px;
+	left: 550px;
+}
+.main__car:hover::before {
+	scale: 1.7;
+	position: absolute;
+
+	padding: 140px;
+	/* тут мав би бути - buttom - щоб опустити машинку вниз, але він НЕ спрацьовував і я чисто випадково прописав спочатку margin, а потім спробував ще й padding (... */
+
+	left: 510px;
+
+	
+}
